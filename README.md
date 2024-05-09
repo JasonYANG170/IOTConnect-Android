@@ -1,8 +1,8 @@
 <div align="center">
     <h1>万物互联IOT移动端</h1>
-    <img src="https://img.shields.io/github/license/JasonYANG170/IOT-ConnectPC?label=License&style=for-the-badge">
-    <img src="https://img.shields.io/github/commit-activity/w/JasonYANG170/IOT-ConnectPC?style=for-the-badge">
-<img src="https://img.shields.io/github/languages/count/JasonYANG170/IOT-ConnectPC?logo=python&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/JasonYANG170/IOTConnect-Android?label=License&style=for-the-badge">
+    <img src="https://img.shields.io/github/commit-activity/w/JasonYANG170/IOTConnect-Android?style=for-the-badge">
+<img src="https://img.shields.io/github/languages/count/JasonYANG170/IOTConnect-Android?logo=Kotlin&style=for-the-badge">
 	<br>
     	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
   <br>
