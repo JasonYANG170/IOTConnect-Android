@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">项目开发：</string>
+    <string name="register">YANG</string>
+    <string name="more">更多</string>
+    <string name="content_description_search">搜索</string>
+    <string name="content_description_favorite">收藏</string>
+    <string name="content_description_more">更多</string>
+</resources>
