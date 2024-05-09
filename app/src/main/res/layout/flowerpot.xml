@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/topAppBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp"
+
+                    app:title="万物互联IOT移动端 " />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <!-- Note: A RecyclerView can also be used -->
+
+            <!-- Scrollable content -->
+
+        </androidx.core.widget.NestedScrollView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Media -->
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="208dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="16dp"
+                                android:orientation="vertical">
+                                android:padding="16dp">
+
+                                <!-- Title, secondary and supporting text -->
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:text="智能植物培育设备"
+                                    android:textSize="20dp"
+                                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+
+                                    android:textSize="20dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:text="植物名称："
+                                    android:id="@+id/fpname1"
+                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                    android:textColor="?android:attr/textColorSecondary" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:text="设备ID："
+                                    android:id="@+id/dvid"
+                                    android:textSize="20dp"
+                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                    android:textColor="?android:attr/textColorSecondary" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:text="设备状态："
+                                    android:textSize="20dp"
+                                    android:id="@+id/dvst"
+                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                    android:textColor="?android:attr/textColorSecondary" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:text="固件版本："
+                                    android:textSize="20dp"
+                                    android:id="@+id/dvinfo"
+                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                    android:textColor="?android:attr/textColorSecondary" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/flowerpot"/>
+                        </LinearLayout>
+
+
+
+                        <!-- Buttons -->
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Media -->
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <!-- Media -->
+
+
+                                    <LinearLayout
+                                        android:layout_width="130dp"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:padding="16dp">
+
+                                        <!-- Title, secondary and supporting text -->
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="环境温度"
+                                                android:textAppearance="?attr/textAppearanceTitleMedium" />
+                                        </LinearLayout>
+
+
+                                        <TextView
+                                            android:id="@+id/tmpfp"
+                                            android:layout_width="121dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="8dp"
+                                            android:text="0.00°C"
+                                            android:textAppearance="?attr/textAppearanceBodyMedium"
+                                            android:textColor="?android:attr/textColorSecondary"
+                                            android:textSize="30dp" />
+
+                                    </LinearLayout>
+
+                                    <!-- Buttons -->
+
+
+                                </LinearLayout>
+
+
+
+
+                            <Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent" />
+
+
+
+                                <LinearLayout
+                                    android:layout_width="130dp"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <!-- Media -->
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:padding="16dp">
+
+                                        <!-- Title, secondary and supporting text -->
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="土壤湿度"
+                                            android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                        <TextView
+                                            android:id="@+id/hmfp"
+                                            android:layout_width="121dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="8dp"
+                                            android:text="0.00%"
+                                            android:textAppearance="?attr/textAppearanceBodyMedium"
+                                            android:textColor="?android:attr/textColorSecondary"
+                                            android:textSize="30dp" />
+
+
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <!-- Media -->
+
+
+                                    <LinearLayout
+                                        android:layout_width="130dp"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:padding="16dp">
+
+                                        <!-- Title, secondary and supporting text -->
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="环境湿度"
+                                            android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                        <TextView
+                                            android:id="@+id/hmpfp"
+                                            android:layout_width="109dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="8dp"
+                                            android:text="0.00%"
+                                            android:textAppearance="?attr/textAppearanceBodyMedium"
+                                            android:textColor="?android:attr/textColorSecondary"
+                                            android:textSize="30dp" />
+
+
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                        <!-- Buttons -->
+
+
+                    </LinearLayout>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Media -->
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <!-- Title, secondary and supporting text -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="AI交互实验性功能"
+                                android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.card.MaterialCardView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:onClick="aichatbton">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <!-- Media -->
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:padding="16dp">
+
+                                            <!-- Title, secondary and supporting text -->
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="84dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="AI交互聊天"
+                                                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                                <TextView
+                                                    android:id="@+id/alchatbt"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="8dp"
+                                                    android:text="关"
+                                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                                    android:textColor="?android:attr/textColorSecondary"
+                                                    android:textSize="30dp" />
+                                            </LinearLayout>
+
+
+                                        </LinearLayout>
+                                        <!-- Buttons -->
+
+
+                                    </LinearLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+
+                                <Space
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+
+                                <com.google.android.material.card.MaterialCardView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="8dp"
+                                    android:onClick="aichatbton">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <!-- Media -->
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:padding="16dp">
+
+                                            <!-- Title, secondary and supporting text -->
+                                            <LinearLayout
+                                                android:layout_width="120dp"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="84dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="AI视觉预测"
+                                                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                                <TextView
+                                                    android:id="@+id/aiseebt"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="8dp"
+                                                    android:text="关"
+                                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                                    android:textColor="?android:attr/textColorSecondary"
+                                                    android:textSize="30dp" />
+                                            </LinearLayout>
+
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- Buttons -->
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Media -->
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <!-- Title, secondary and supporting text -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="控制台"
+                                android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                            <com.google.android.material.card.MaterialCardView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:onClick="autobton">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <!-- Media -->
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:padding="16dp">
+
+                                        <!-- Title, secondary and supporting text -->
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="248dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="AUTO自动控制"
+                                                android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                            <TextView
+                                                android:id="@+id/autobt"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="8dp"
+                                                android:text="关"
+                                                android:textAppearance="?attr/textAppearanceBodyMedium"
+                                                android:textColor="?android:attr/textColorSecondary"
+                                                android:textSize="30dp" />
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+                                    <!-- Buttons -->
+
+
+                                </LinearLayout>
+
+                            </com.google.android.material.card.MaterialCardView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.card.MaterialCardView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:onClick="tmpbton">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <!-- Media -->
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:padding="16dp">
+
+                                            <!-- Title, secondary and supporting text -->
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="84dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="环境恒温"
+                                                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                                <TextView
+                                                    android:id="@+id/tmpbt"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="8dp"
+                                                    android:text="关"
+                                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                                    android:textColor="?android:attr/textColorSecondary"
+                                                    android:textSize="30dp" />
+                                            </LinearLayout>
+
+
+                                        </LinearLayout>
+                                        <!-- Buttons -->
+
+
+                                    </LinearLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+
+                                <Space
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+
+                                <com.google.android.material.card.MaterialCardView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="8dp"
+                                    android:onClick="lightbton">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <!-- Media -->
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:padding="16dp">
+
+                                            <!-- Title, secondary and supporting text -->
+                                            <LinearLayout
+                                                android:layout_width="120dp"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="84dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="环境光照"
+                                                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                                <TextView
+                                                    android:id="@+id/lightbt"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="8dp"
+                                                    android:text="关"
+                                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                                    android:textColor="?android:attr/textColorSecondary"
+                                                    android:textSize="30dp" />
+                                            </LinearLayout>
+
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.card.MaterialCardView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:onClick="waterbton">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <!-- Media -->
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:padding="16dp">
+
+                                            <!-- Title, secondary and supporting text -->
+                                            <LinearLayout
+                                                android:layout_width="117dp"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="84dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="浇水"
+                                                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                                <TextView
+                                                    android:id="@+id/waterbt"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="8dp"
+                                                    android:text="关"
+                                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                                    android:textColor="?android:attr/textColorSecondary"
+                                                    android:textSize="30dp" />
+                                            </LinearLayout>
+
+
+                                        </LinearLayout>
+
+                                        <!-- Buttons -->
+
+
+                                    </LinearLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+
+                                <Space
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+
+                                <com.google.android.material.card.MaterialCardView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="8dp"
+                                    android:onClick="updatebton">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <!-- Media -->
+
+
+                                        <LinearLayout
+                                            android:layout_width="150dp"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:padding="16dp">
+
+                                            <!-- Title, secondary and supporting text -->
+                                            <LinearLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal">
+
+                                                <LinearLayout
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:orientation="vertical">
+
+                                                    <TextView
+                                                        android:layout_width="68dp"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="更新"
+                                                        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                                                    <TextView
+                                                        android:id="@+id/updt"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="当前版本V0.0.0" />
+                                                </LinearLayout>
+
+                                                <TextView
+                                                    android:id="@+id/upbt"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="8dp"
+                                                    android:text="*"
+                                                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                                                    android:textColor="?android:attr/textColorSecondary"
+                                                    android:textSize="30dp" />
+                                            </LinearLayout>
+
+
+                                        </LinearLayout>
+
+
+
+                                    </LinearLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- Buttons -->
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
