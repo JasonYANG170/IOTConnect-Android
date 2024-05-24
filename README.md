@@ -6,8 +6,9 @@
 	<br>
     	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
   <br>
+<img src="https://github.com/JasonYANG170/IOTConnect-Android/assets/39414350/85c7d1e4-dc12-4d32-8c63-7cf609b187e3">
 
-	
+<br>	
 这是一项基于Kotlin的物联网设备Android及HarmonyOS控制终端
 
 <br>
