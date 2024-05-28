@@ -18,8 +18,8 @@
 ## 支持系统
 **WebView**设备  
 **IOS及Mac**设备  
-[Windows及Linux请点此处](https://github.com/JasonYANG170/IOT-ConnectPC)  
-[Web及Apple设备](https://github.com/JasonYANG170/IOT-ConnectWeb)
+[Windows及Linux请点此处](https://github.com/JasonYANG170/IOTConnect-PC)  
+[Web及Apple设备](https://github.com/JasonYANG170/IOTConnect-Web)
 
 
 ## 功能
