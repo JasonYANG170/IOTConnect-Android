@@ -1,3 +1,5 @@
+[简体中文](README.md) | [English](README_en.md)
+
 <div align="center">
     <h1>万物互联IOT移动端</h1>
     <img src="https://img.shields.io/github/license/JasonYANG170/IOTConnect-Android?label=License&style=for-the-badge">
